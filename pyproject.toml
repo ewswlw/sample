@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "tajana"
+version = "0.1.0"
+description = "test files"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pandas = "^2.2.2"
+vectorbt = "^0.26.2"
+yfinance = "^0.2.41"
+nbformat = "^5.10.4"
+xbbg = "^0.7.7"
+quantstats = "^0.0.62"
+ipykernel = "^6.29.5"
+plotly = "^5.23.0"
+statsmodels = "^0.14.2"
+tensorflow = "^2.17.0"
+torch = "^2.4.1"
+torchvision = "^0.19.1"
+torchaudio = "^2.4.1"
+xlwings = "^0.32.2"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
